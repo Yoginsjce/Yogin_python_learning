@@ -1,0 +1,9 @@
+my_set={1,2,3}
+print(len(my_set))
+my_set.add(24)
+print(my_set)
+a=my_set.pop()
+print(a)
+my_set.discard(3)
+my_set.clear()
+print(my_set)
